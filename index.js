@@ -3,6 +3,8 @@ function reverseString() {
   let reversed = input.split('').reverse().join('');
   document.getElementById('firstAnswer').innerHTML = 'Reversed: ' + reversed;
 }
+document.getElementById('firstStringBtn').addEventListener('click', reverseString);
+
 function palindromeNumber() {
   let num = parseInt(document.getElementById('number').value);
   let numCopy = num;
