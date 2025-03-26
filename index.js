@@ -1,6 +1,6 @@
 function reverseString() {
-  const input = document.getElementById('firstString').value;
-  const reversed = input.split('').reverse().join('');
+  let input = parseInt(document.getElementById('firstString').value);
+  let reversed = input.split('').reverse().join('');
   document.getElementById('firstAnswer').innerHTML = 'Reversed: ' + reversed;
 }
 function palindromeNumber() {
