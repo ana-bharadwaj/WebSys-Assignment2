@@ -1,7 +1,7 @@
 function reverseString() {
   const input = document.getElementById('firstString').value;
   const reversed = input.split('').reverse().join('');
-  document.getElementById('firstAnswer').textContent = 'Reversed: ' + reversed;
+  document.getElementById('firstAnswer').innerHTML = 'Reversed: ' + reversed;
 }
 function palindromeNumber() {
   let num = parseInt(document.getElementById('number').value);
