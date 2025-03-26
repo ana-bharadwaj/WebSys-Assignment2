@@ -1,0 +1,14 @@
+hr{
+    margin: 0px 100px ;
+}
+.center{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+}
+
+.headingMargin{
+    margin-top: 50px;
+}
